@@ -39,6 +39,7 @@ public class June24 {
         System.out.println("Page title :: " + driver.getTitle());
         //enter Java and hit enter button
         //I MADE A CHANGE HERE ON INTELLIJ
+        //i;m making another change
 
         WebElement results = driver.findElement(By.id("result-stats"));
         System.out.println(results.getText());
