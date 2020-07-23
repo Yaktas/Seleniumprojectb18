@@ -40,7 +40,6 @@ public class June24 {
         //enter Java and hit enter button
 
 
-
         WebElement results = driver.findElement(By.id("result-stats"));
         System.out.println(results.getText());
         //let's make sure that every single search result contains "Java"
